@@ -1,0 +1,13 @@
+<div>
+  <p>
+    <%=t(:gl_gitlab_settings) %>
+  </p>
+  <p>
+    <label> <%= t(:gl_endpoint) %> </label>
+    <%= text_field_tag 'settings[gitlab_endpoint]', @settings['gitlab_endpoint'] %>
+  </p>
+  <p>
+    <label> <%= t(:gl_private_token) %> </label>
+    <%= text_field_tag 'settings[gitlab_private_token]', @settings['gitlab_private_token'] %>
+  </p>
+</div>
