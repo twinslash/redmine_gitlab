@@ -12,3 +12,5 @@ Redmine::Plugin.register :redmine_gitlab do
   settings :default => {},
            :partial => 'settings/redmine_gitlab_settings'
 end
+
+Redmine::Scm::Base.add 'Gitlab'
