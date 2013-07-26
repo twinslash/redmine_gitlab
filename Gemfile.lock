@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gitlab (2.2.0)
+      httparty
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    minitest (5.0.6)
+    minitest-spec-context (0.0.3)
+    multi_json (1.7.7)
+    multi_xml (0.5.4)
+    rake (10.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gitlab
+  minitest
+  minitest-spec-context
+  rake
