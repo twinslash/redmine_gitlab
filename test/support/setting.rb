@@ -1,10 +1,10 @@
 # stub of original Redmine class Setting
 class Setting
-  def self.redmine_gitlab
+  def self.plugin_redmine_gitlab
     self[:redmine_gitlab]
   end
 
-  def self.redmine_gitlab=(value)
+  def self.plugin_redmine_gitlab=(value)
     self[:redmine_gitlab] = value
   end
 

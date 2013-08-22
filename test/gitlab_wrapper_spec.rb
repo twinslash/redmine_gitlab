@@ -5,7 +5,7 @@ describe GitlabWrapper do
   let(:object) { GitlabWrapper }
 
   before do
-    Setting.redmine_gitlab = {
+    Setting.plugin_redmine_gitlab = {
       :private_token => 'private_token',
       :endpoint => 'endpoint'
     }
@@ -17,7 +17,7 @@ describe GitlabWrapper do
       object.send(:private_token).must_equal 'private_token'
       object.send(:endpoint).must_equal 'endpoint'
 
-      Setting.redmine_gitlab = {:private_token => 'new_private_token', :endpoint => 'new_endpoint'}
+      Setting.plugin_redmine_gitlab = {:private_token => 'new_private_token', :endpoint => 'new_endpoint'}
 
       object.send(:private_token).must_equal 'new_private_token'
       object.send(:endpoint).must_equal 'new_endpoint'

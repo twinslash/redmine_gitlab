@@ -10,11 +10,11 @@ class GitlabWrapper
       end
 
       def endpoint
-        Setting.redmine_gitlab[:endpoint]
+        Setting.plugin_redmine_gitlab[:endpoint]
       end
 
       def private_token
-        Setting.redmine_gitlab[:private_token]
+        Setting.plugin_redmine_gitlab[:private_token]
       end
   end
 end

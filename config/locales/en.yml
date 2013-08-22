@@ -1,4 +1,9 @@
 en:
-  gl_gitlab_settings: Gitlab settings
   gl_endpoint: Gitlab endpoint
+  gl_gitlab_settings: Gitlab settings
   gl_private_token: Gitlab private token
+
+  gl_field_repository_name: Gitlab repository name
+  gl_text_repository_name_note: Gitlab repository name description
+  gl_field_repository_namespace: Gitlab repository namespace
+  gl_text_repository_namespace_note: Gitlab repository namespace description
